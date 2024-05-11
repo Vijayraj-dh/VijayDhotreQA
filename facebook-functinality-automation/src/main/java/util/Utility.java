@@ -30,7 +30,10 @@ public class Utility {
 		}
 		catch(IllegalStateException e) {
 			double d=cell.getNumericCellValue();
-			 data=String.valueOf(d);
+			System.out.println(d);
+			 data=Double.toString(d);
+				System.out.println(data);
+
 		}
 		 
 		file.close();

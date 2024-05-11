@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="0" failed="1" skipped="3">
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-09T15:31:24 IST" name="RegressionSuite" finished-at="2024-05-09T15:37:34 IST" duration-ms="370322">
+  <suite started-at="2024-05-10T23:34:30 IST" name="RegressionSuite" finished-at="2024-05-10T23:35:56 IST" duration-ms="86263">
     <groups>
     </groups>
-    <test started-at="2024-05-09T15:31:24 IST" name="ChromeTest" finished-at="2024-05-09T15:37:29 IST" duration-ms="365211">
+    <test started-at="2024-05-10T23:34:30 IST" name="ChromeTest" finished-at="2024-05-10T23:35:10 IST" duration-ms="39925">
       <class name="testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot">
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot@4f18837a]" started-at="2024-05-09T15:31:24 IST" name="beforeTest" finished-at="2024-05-09T15:31:26 IST" duration-ms="2169" status="PASS">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot@5876a9af]" started-at="2024-05-10T23:34:30 IST" name="beforeTest" finished-at="2024-05-10T23:34:32 IST" duration-ms="1932" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,224 +18,168 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot@4f18837a]" started-at="2024-05-09T15:31:26 IST" name="beforeClass" finished-at="2024-05-09T15:31:26 IST" duration-ms="55" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot@5876a9af]" started-at="2024-05-10T23:34:34 IST" name="beforeClass" finished-at="2024-05-10T23:34:34 IST" duration-ms="55" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMehtod()[pri:0, instance:testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot@4f18837a]" started-at="2024-05-09T15:31:26 IST" name="beforeMehtod" finished-at="2024-05-09T15:31:29 IST" duration-ms="2809" status="PASS">
+        <test-method is-config="true" signature="beforeMehtod()[pri:0, instance:testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot@5876a9af]" started-at="2024-05-10T23:34:34 IST" name="beforeMehtod" finished-at="2024-05-10T23:34:38 IST" duration-ms="3939" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMehtod -->
-        <test-method signature="test1()[pri:0, instance:testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot@4f18837a]" started-at="2024-05-09T15:31:29 IST" name="test1" finished-at="2024-05-09T15:34:29 IST" duration-ms="180060" status="FAIL">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[java.util.concurrent.TimeoutException
-Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2b6135f1da256242321f3986ae63e946, findElement {using=xpath, value=//span[text()='Friends']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.155 (df4f029328b..., userDataDir: C:\Users\VIJAYD~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59791}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59791/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2b6135f1da256242321f3986ae63e946]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
-Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2b6135f1da256242321f3986ae63e946, findElement {using=xpath, value=//span[text()='Friends']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.155 (df4f029328b..., userDataDir: C:\Users\VIJAYD~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59791}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59791/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2b6135f1da256242321f3986ae63e946
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:396)
-at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:352)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
-at pom.HomePage.clickonFriends(HomePage.java:163)
-at testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot.test1(VerifyAllElentsOnHomepageAreClickableOrNot.java:84)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: java.util.concurrent.TimeoutException
-at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
-at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:379)
-... 29 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method signature="test1()[pri:0, instance:testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot@5876a9af]" started-at="2024-05-10T23:34:38 IST" name="test1" finished-at="2024-05-10T23:34:52 IST" duration-ms="14079" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="afterMehtod(org.testng.ITestResult)[pri:0, instance:testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot@4f18837a]" started-at="2024-05-09T15:34:29 IST" name="afterMehtod" finished-at="2024-05-09T15:37:29 IST" duration-ms="180029" status="FAIL">
+        <test-method is-config="true" signature="afterMehtod(org.testng.ITestResult)[pri:0, instance:testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot@5876a9af]" started-at="2024-05-10T23:34:52 IST" name="afterMehtod" finished-at="2024-05-10T23:34:53 IST" duration-ms="725" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test1 status=FAILURE method=VerifyAllElentsOnHomepageAreClickableOrNot.test1()[pri:0, instance:testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot@4f18837a] output={null}]]]>
+                <![CDATA[[TestResult name=test1 status=SUCCESS method=VerifyAllElentsOnHomepageAreClickableOrNot.test1()[pri:0, instance:testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot@5876a9af] output={null}]]]>
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[java.util.concurrent.TimeoutException
-Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2b6135f1da256242321f3986ae63e946, screenshot {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.155 (df4f029328b..., userDataDir: C:\Users\VIJAYD~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59791}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59791/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2b6135f1da256242321f3986ae63e946]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
-Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2b6135f1da256242321f3986ae63e946, screenshot {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.155 (df4f029328b..., userDataDir: C:\Users\VIJAYD~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59791}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59791/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2b6135f1da256242321f3986ae63e946
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:396)
-at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:352)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
-at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:321)
-at util.Utility.takeScreenshotMethod(Utility.java:51)
-at testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot.afterMehtod(VerifyAllElentsOnHomepageAreClickableOrNot.java:105)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: java.util.concurrent.TimeoutException
-at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
-at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:379)
-... 30 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMehtod -->
-        <test-method is-config="true" signature="beforeMehtod()[pri:0, instance:testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot@4f18837a]" started-at="2024-05-09T15:37:29 IST" name="beforeMehtod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1715249249486" status="SKIP">
+        <test-method is-config="true" signature="beforeMehtod()[pri:0, instance:testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot@5876a9af]" started-at="2024-05-10T23:34:53 IST" name="beforeMehtod" finished-at="2024-05-10T23:34:59 IST" duration-ms="5664" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMehtod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot@4f18837a]" started-at="2024-05-09T15:37:29 IST" name="afterClass" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1715249249500" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method signature="test2()[pri:0, instance:testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot@4f18837a]" started-at="2024-05-09T15:37:29 IST" name="test2" finished-at="2024-05-09T15:37:29 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[java.util.concurrent.TimeoutException
-Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2b6135f1da256242321f3986ae63e946, screenshot {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.155 (df4f029328b..., userDataDir: C:\Users\VIJAYD~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59791}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59791/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2b6135f1da256242321f3986ae63e946]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
-Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2b6135f1da256242321f3986ae63e946, screenshot {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.155 (df4f029328b..., userDataDir: C:\Users\VIJAYD~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59791}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59791/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2b6135f1da256242321f3986ae63e946
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:396)
-at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:352)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
-at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:321)
-at util.Utility.takeScreenshotMethod(Utility.java:51)
-at testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot.afterMehtod(VerifyAllElentsOnHomepageAreClickableOrNot.java:105)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: java.util.concurrent.TimeoutException
-at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
-at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:379)
-... 30 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method signature="test2()[pri:0, instance:testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot@5876a9af]" started-at="2024-05-10T23:34:59 IST" name="test2" finished-at="2024-05-10T23:35:08 IST" duration-ms="8905" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method is-config="true" signature="afterMehtod(org.testng.ITestResult)[pri:0, instance:testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot@4f18837a]" started-at="2024-05-09T15:37:29 IST" name="afterMehtod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1715249249500" status="SKIP">
+        <test-method is-config="true" signature="afterMehtod(org.testng.ITestResult)[pri:0, instance:testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot@5876a9af]" started-at="2024-05-10T23:35:08 IST" name="afterMehtod" finished-at="2024-05-10T23:35:09 IST" duration-ms="1092" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test2 status=SUCCESS method=VerifyAllElentsOnHomepageAreClickableOrNot.test2()[pri:0, instance:testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot@5876a9af] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMehtod -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot@4f18837a]" started-at="2024-05-09T15:37:29 IST" name="closeBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1715249249516" status="SKIP">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot@5876a9af]" started-at="2024-05-10T23:35:09 IST" name="afterClass" finished-at="2024-05-10T23:35:09 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot@5876a9af]" started-at="2024-05-10T23:35:09 IST" name="closeBrowser" finished-at="2024-05-10T23:35:09 IST" duration-ms="506" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot -->
+      <class name="testNgClasses.VerifyThatUserIsAbleToLoginIntoFacebookAccount">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:testNgClasses.VerifyThatUserIsAbleToLoginIntoFacebookAccount@7ec7ffd3]" started-at="2024-05-10T23:34:32 IST" name="beforeTest" finished-at="2024-05-10T23:34:33 IST" duration-ms="1180" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testNgClasses.VerifyThatUserIsAbleToLoginIntoFacebookAccount@7ec7ffd3]" started-at="2024-05-10T23:34:34 IST" name="beforeClass" finished-at="2024-05-10T23:34:34 IST" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMehtod()[pri:0, instance:testNgClasses.VerifyThatUserIsAbleToLoginIntoFacebookAccount@7ec7ffd3]" started-at="2024-05-10T23:34:34 IST" name="beforeMehtod" finished-at="2024-05-10T23:34:37 IST" duration-ms="2932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMehtod -->
+        <test-method signature="facebookLogin()[pri:0, instance:testNgClasses.VerifyThatUserIsAbleToLoginIntoFacebookAccount@7ec7ffd3]" started-at="2024-05-10T23:34:37 IST" name="facebookLogin" finished-at="2024-05-10T23:34:48 IST" duration-ms="10698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebookLogin -->
+        <test-method is-config="true" signature="afterMehtod(org.testng.ITestResult)[pri:0, instance:testNgClasses.VerifyThatUserIsAbleToLoginIntoFacebookAccount@7ec7ffd3]" started-at="2024-05-10T23:34:48 IST" name="afterMehtod" finished-at="2024-05-10T23:34:49 IST" duration-ms="1450" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=facebookLogin status=SUCCESS method=VerifyThatUserIsAbleToLoginIntoFacebookAccount.facebookLogin()[pri:0, instance:testNgClasses.VerifyThatUserIsAbleToLoginIntoFacebookAccount@7ec7ffd3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMehtod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testNgClasses.VerifyThatUserIsAbleToLoginIntoFacebookAccount@7ec7ffd3]" started-at="2024-05-10T23:34:49 IST" name="afterClass" finished-at="2024-05-10T23:34:49 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testNgClasses.VerifyThatUserIsAbleToLoginIntoFacebookAccount@7ec7ffd3]" started-at="2024-05-10T23:35:09 IST" name="closeBrowser" finished-at="2024-05-10T23:35:10 IST" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testNgClasses.VerifyThatUserIsAbleToLoginIntoFacebookAccount -->
+      <class name="testNgClasses.verifyForgotPasswordFunctonality">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:testNgClasses.verifyForgotPasswordFunctonality@4a94ee4]" started-at="2024-05-10T23:34:33 IST" name="beforeTest" finished-at="2024-05-10T23:34:34 IST" duration-ms="1175" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testNgClasses.verifyForgotPasswordFunctonality@4a94ee4]" started-at="2024-05-10T23:34:34 IST" name="beforeClass" finished-at="2024-05-10T23:34:34 IST" duration-ms="56" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="launchForgotPasswordpage()[pri:0, instance:testNgClasses.verifyForgotPasswordFunctonality@4a94ee4]" started-at="2024-05-10T23:34:34 IST" name="launchForgotPasswordpage" finished-at="2024-05-10T23:34:41 IST" duration-ms="6192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchForgotPasswordpage -->
+        <test-method signature="verifyPasswordShouldBeChangedSucccessfully()[pri:1, instance:testNgClasses.verifyForgotPasswordFunctonality@4a94ee4]" started-at="2024-05-10T23:34:41 IST" name="verifyPasswordShouldBeChangedSucccessfully" finished-at="2024-05-10T23:34:41 IST" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPasswordShouldBeChangedSucccessfully -->
+        <test-method is-config="true" signature="takeScreenshotOfFailedTestCases(org.testng.ITestResult)[pri:0, instance:testNgClasses.verifyForgotPasswordFunctonality@4a94ee4]" started-at="2024-05-10T23:34:41 IST" name="takeScreenshotOfFailedTestCases" finished-at="2024-05-10T23:34:41 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPasswordShouldBeChangedSucccessfully status=SUCCESS method=verifyForgotPasswordFunctonality.verifyPasswordShouldBeChangedSucccessfully()[pri:1, instance:testNgClasses.verifyForgotPasswordFunctonality@4a94ee4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOfFailedTestCases -->
+        <test-method is-config="true" signature="launchForgotPasswordpage()[pri:0, instance:testNgClasses.verifyForgotPasswordFunctonality@4a94ee4]" started-at="2024-05-10T23:34:41 IST" name="launchForgotPasswordpage" finished-at="2024-05-10T23:34:44 IST" duration-ms="3292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchForgotPasswordpage -->
+        <test-method signature="verifyErrorMessageWhenForgotFunctionalityIsUsed()[pri:2, instance:testNgClasses.verifyForgotPasswordFunctonality@4a94ee4]" started-at="2024-05-10T23:34:44 IST" name="verifyErrorMessageWhenForgotFunctionalityIsUsed" finished-at="2024-05-10T23:34:47 IST" duration-ms="2698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyErrorMessageWhenForgotFunctionalityIsUsed -->
+        <test-method is-config="true" signature="takeScreenshotOfFailedTestCases(org.testng.ITestResult)[pri:0, instance:testNgClasses.verifyForgotPasswordFunctonality@4a94ee4]" started-at="2024-05-10T23:34:47 IST" name="takeScreenshotOfFailedTestCases" finished-at="2024-05-10T23:34:47 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyErrorMessageWhenForgotFunctionalityIsUsed status=SUCCESS method=verifyForgotPasswordFunctonality.verifyErrorMessageWhenForgotFunctionalityIsUsed()[pri:2, instance:testNgClasses.verifyForgotPasswordFunctonality@4a94ee4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOfFailedTestCases -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testNgClasses.verifyForgotPasswordFunctonality@4a94ee4]" started-at="2024-05-10T23:34:47 IST" name="closeBrowser" finished-at="2024-05-10T23:34:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testNgClasses.verifyForgotPasswordFunctonality@4a94ee4]" started-at="2024-05-10T23:35:10 IST" name="afterTest" finished-at="2024-05-10T23:35:10 IST" duration-ms="300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testNgClasses.verifyForgotPasswordFunctonality -->
     </test> <!-- ChromeTest -->
-    <test started-at="2024-05-09T15:37:29 IST" name="EdgeTest" finished-at="2024-05-09T15:37:34 IST" duration-ms="5016">
+    <test started-at="2024-05-10T23:35:10 IST" name="EdgeTest" finished-at="2024-05-10T23:35:56 IST" duration-ms="46291">
       <class name="testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot">
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot@77fbd92c]" started-at="2024-05-09T15:37:29 IST" name="beforeTest" finished-at="2024-05-09T15:37:32 IST" duration-ms="3362" status="PASS">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot@293a5bf6]" started-at="2024-05-10T23:35:10 IST" name="beforeTest" finished-at="2024-05-10T23:35:13 IST" duration-ms="3209" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -246,205 +190,164 @@ at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot@77fbd92c]" started-at="2024-05-09T15:37:32 IST" name="beforeClass" finished-at="2024-05-09T15:37:33 IST" duration-ms="20" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot@293a5bf6]" started-at="2024-05-10T23:35:20 IST" name="beforeClass" finished-at="2024-05-10T23:35:20 IST" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMehtod()[pri:0, instance:testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot@77fbd92c]" started-at="2024-05-09T15:37:33 IST" name="beforeMehtod" finished-at="2024-05-09T15:37:34 IST" duration-ms="1592" status="FAIL">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[target frame detached
-  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
-  (Session info: MicrosoftEdge=124.0.2478.80)
-Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [ae4544b1a644ef9d37e4d05a2086eb0e, get {url=https://www.facebook.com/login/}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 124.0.2478.80, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:60610}, msedge: {msedgedriverVersion: 124.0.2478.80 (b05b378d1705..., userDataDir: C:\Users\VIJAYD~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60610/devtoo..., se:cdpVersion: 124.0.2478.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ae4544b1a644ef9d37e4d05a2086eb0e]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: target frame detached
-  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
-  (Session info: MicrosoftEdge=124.0.2478.80)
-Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [ae4544b1a644ef9d37e4d05a2086eb0e, get {url=https://www.facebook.com/login/}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 124.0.2478.80, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:60610}, msedge: {msedgedriverVersion: 124.0.2478.80 (b05b378d1705..., userDataDir: C:\Users\VIJAYD~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60610/devtoo..., se:cdpVersion: 124.0.2478.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ae4544b1a644ef9d37e4d05a2086eb0e
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:300)
-at testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot.beforeMehtod(VerifyAllElentsOnHomepageAreClickableOrNot.java:74)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method is-config="true" signature="beforeMehtod()[pri:0, instance:testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot@293a5bf6]" started-at="2024-05-10T23:35:20 IST" name="beforeMehtod" finished-at="2024-05-10T23:35:24 IST" duration-ms="4064" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMehtod -->
-        <test-method signature="test1()[pri:0, instance:testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot@77fbd92c]" started-at="2024-05-09T15:37:34 IST" name="test1" finished-at="2024-05-09T15:37:34 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[target frame detached
-  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
-  (Session info: MicrosoftEdge=124.0.2478.80)
-Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [ae4544b1a644ef9d37e4d05a2086eb0e, get {url=https://www.facebook.com/login/}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 124.0.2478.80, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:60610}, msedge: {msedgedriverVersion: 124.0.2478.80 (b05b378d1705..., userDataDir: C:\Users\VIJAYD~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60610/devtoo..., se:cdpVersion: 124.0.2478.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ae4544b1a644ef9d37e4d05a2086eb0e]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: target frame detached
-  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
-  (Session info: MicrosoftEdge=124.0.2478.80)
-Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [ae4544b1a644ef9d37e4d05a2086eb0e, get {url=https://www.facebook.com/login/}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 124.0.2478.80, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:60610}, msedge: {msedgedriverVersion: 124.0.2478.80 (b05b378d1705..., userDataDir: C:\Users\VIJAYD~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60610/devtoo..., se:cdpVersion: 124.0.2478.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ae4544b1a644ef9d37e4d05a2086eb0e
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:300)
-at testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot.beforeMehtod(VerifyAllElentsOnHomepageAreClickableOrNot.java:74)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method signature="test1()[pri:0, instance:testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot@293a5bf6]" started-at="2024-05-10T23:35:24 IST" name="test1" finished-at="2024-05-10T23:35:39 IST" duration-ms="15233" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="afterMehtod(org.testng.ITestResult)[pri:0, instance:testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot@77fbd92c]" started-at="2024-05-09T15:37:34 IST" name="afterMehtod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1715249254609" status="SKIP">
+        <test-method is-config="true" signature="afterMehtod(org.testng.ITestResult)[pri:0, instance:testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot@293a5bf6]" started-at="2024-05-10T23:35:39 IST" name="afterMehtod" finished-at="2024-05-10T23:35:39 IST" duration-ms="334" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test1 status=SUCCESS method=VerifyAllElentsOnHomepageAreClickableOrNot.test1()[pri:0, instance:testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot@293a5bf6] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMehtod -->
-        <test-method is-config="true" signature="beforeMehtod()[pri:0, instance:testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot@77fbd92c]" started-at="2024-05-09T15:37:34 IST" name="beforeMehtod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1715249254613" status="SKIP">
+        <test-method is-config="true" signature="beforeMehtod()[pri:0, instance:testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot@293a5bf6]" started-at="2024-05-10T23:35:39 IST" name="beforeMehtod" finished-at="2024-05-10T23:35:44 IST" duration-ms="4289" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMehtod -->
-        <test-method signature="test2()[pri:0, instance:testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot@77fbd92c]" started-at="2024-05-09T15:37:34 IST" name="test2" finished-at="2024-05-09T15:37:34 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[target frame detached
-  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
-  (Session info: MicrosoftEdge=124.0.2478.80)
-Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [ae4544b1a644ef9d37e4d05a2086eb0e, get {url=https://www.facebook.com/login/}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 124.0.2478.80, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:60610}, msedge: {msedgedriverVersion: 124.0.2478.80 (b05b378d1705..., userDataDir: C:\Users\VIJAYD~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60610/devtoo..., se:cdpVersion: 124.0.2478.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ae4544b1a644ef9d37e4d05a2086eb0e]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: target frame detached
-  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
-  (Session info: MicrosoftEdge=124.0.2478.80)
-Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [ae4544b1a644ef9d37e4d05a2086eb0e, get {url=https://www.facebook.com/login/}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 124.0.2478.80, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:60610}, msedge: {msedgedriverVersion: 124.0.2478.80 (b05b378d1705..., userDataDir: C:\Users\VIJAYD~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60610/devtoo..., se:cdpVersion: 124.0.2478.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ae4544b1a644ef9d37e4d05a2086eb0e
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:300)
-at testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot.beforeMehtod(VerifyAllElentsOnHomepageAreClickableOrNot.java:74)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method signature="test2()[pri:0, instance:testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot@293a5bf6]" started-at="2024-05-10T23:35:44 IST" name="test2" finished-at="2024-05-10T23:35:51 IST" duration-ms="7066" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method is-config="true" signature="afterMehtod(org.testng.ITestResult)[pri:0, instance:testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot@77fbd92c]" started-at="2024-05-09T15:37:34 IST" name="afterMehtod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1715249254619" status="SKIP">
+        <test-method is-config="true" signature="afterMehtod(org.testng.ITestResult)[pri:0, instance:testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot@293a5bf6]" started-at="2024-05-10T23:35:51 IST" name="afterMehtod" finished-at="2024-05-10T23:35:52 IST" duration-ms="967" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test2 status=SUCCESS method=VerifyAllElentsOnHomepageAreClickableOrNot.test2()[pri:0, instance:testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot@293a5bf6] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMehtod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot@77fbd92c]" started-at="2024-05-09T15:37:34 IST" name="afterClass" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1715249254621" status="SKIP">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot@293a5bf6]" started-at="2024-05-10T23:35:52 IST" name="afterClass" finished-at="2024-05-10T23:35:52 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot@77fbd92c]" started-at="2024-05-09T15:37:34 IST" name="closeBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1715249254624" status="SKIP">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot@293a5bf6]" started-at="2024-05-10T23:35:52 IST" name="closeBrowser" finished-at="2024-05-10T23:35:53 IST" duration-ms="1551" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot -->
+      <class name="testNgClasses.VerifyThatUserIsAbleToLoginIntoFacebookAccount">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:testNgClasses.VerifyThatUserIsAbleToLoginIntoFacebookAccount@6aeb35e6]" started-at="2024-05-10T23:35:13 IST" name="beforeTest" finished-at="2024-05-10T23:35:16 IST" duration-ms="3239" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testNgClasses.VerifyThatUserIsAbleToLoginIntoFacebookAccount@6aeb35e6]" started-at="2024-05-10T23:35:20 IST" name="beforeClass" finished-at="2024-05-10T23:35:20 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMehtod()[pri:0, instance:testNgClasses.VerifyThatUserIsAbleToLoginIntoFacebookAccount@6aeb35e6]" started-at="2024-05-10T23:35:20 IST" name="beforeMehtod" finished-at="2024-05-10T23:35:23 IST" duration-ms="2899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMehtod -->
+        <test-method signature="facebookLogin()[pri:0, instance:testNgClasses.VerifyThatUserIsAbleToLoginIntoFacebookAccount@6aeb35e6]" started-at="2024-05-10T23:35:23 IST" name="facebookLogin" finished-at="2024-05-10T23:35:36 IST" duration-ms="12987" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebookLogin -->
+        <test-method is-config="true" signature="afterMehtod(org.testng.ITestResult)[pri:0, instance:testNgClasses.VerifyThatUserIsAbleToLoginIntoFacebookAccount@6aeb35e6]" started-at="2024-05-10T23:35:36 IST" name="afterMehtod" finished-at="2024-05-10T23:35:37 IST" duration-ms="1486" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=facebookLogin status=SUCCESS method=VerifyThatUserIsAbleToLoginIntoFacebookAccount.facebookLogin()[pri:0, instance:testNgClasses.VerifyThatUserIsAbleToLoginIntoFacebookAccount@6aeb35e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMehtod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testNgClasses.VerifyThatUserIsAbleToLoginIntoFacebookAccount@6aeb35e6]" started-at="2024-05-10T23:35:37 IST" name="afterClass" finished-at="2024-05-10T23:35:37 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testNgClasses.VerifyThatUserIsAbleToLoginIntoFacebookAccount@6aeb35e6]" started-at="2024-05-10T23:35:53 IST" name="closeBrowser" finished-at="2024-05-10T23:35:55 IST" duration-ms="1505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testNgClasses.VerifyThatUserIsAbleToLoginIntoFacebookAccount -->
+      <class name="testNgClasses.verifyForgotPasswordFunctonality">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:testNgClasses.verifyForgotPasswordFunctonality@42a48628]" started-at="2024-05-10T23:35:16 IST" name="beforeTest" finished-at="2024-05-10T23:35:20 IST" duration-ms="3313" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testNgClasses.verifyForgotPasswordFunctonality@42a48628]" started-at="2024-05-10T23:35:20 IST" name="beforeClass" finished-at="2024-05-10T23:35:20 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="launchForgotPasswordpage()[pri:0, instance:testNgClasses.verifyForgotPasswordFunctonality@42a48628]" started-at="2024-05-10T23:35:20 IST" name="launchForgotPasswordpage" finished-at="2024-05-10T23:35:25 IST" duration-ms="5550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchForgotPasswordpage -->
+        <test-method signature="verifyPasswordShouldBeChangedSucccessfully()[pri:1, instance:testNgClasses.verifyForgotPasswordFunctonality@42a48628]" started-at="2024-05-10T23:35:25 IST" name="verifyPasswordShouldBeChangedSucccessfully" finished-at="2024-05-10T23:35:25 IST" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPasswordShouldBeChangedSucccessfully -->
+        <test-method is-config="true" signature="launchForgotPasswordpage()[pri:0, instance:testNgClasses.verifyForgotPasswordFunctonality@42a48628]" started-at="2024-05-10T23:35:25 IST" name="launchForgotPasswordpage" finished-at="2024-05-10T23:35:30 IST" duration-ms="4253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchForgotPasswordpage -->
+        <test-method is-config="true" signature="takeScreenshotOfFailedTestCases(org.testng.ITestResult)[pri:0, instance:testNgClasses.verifyForgotPasswordFunctonality@42a48628]" started-at="2024-05-10T23:35:25 IST" name="takeScreenshotOfFailedTestCases" finished-at="2024-05-10T23:35:25 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPasswordShouldBeChangedSucccessfully status=SUCCESS method=verifyForgotPasswordFunctonality.verifyPasswordShouldBeChangedSucccessfully()[pri:1, instance:testNgClasses.verifyForgotPasswordFunctonality@42a48628] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOfFailedTestCases -->
+        <test-method signature="verifyErrorMessageWhenForgotFunctionalityIsUsed()[pri:2, instance:testNgClasses.verifyForgotPasswordFunctonality@42a48628]" started-at="2024-05-10T23:35:30 IST" name="verifyErrorMessageWhenForgotFunctionalityIsUsed" finished-at="2024-05-10T23:35:32 IST" duration-ms="2557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyErrorMessageWhenForgotFunctionalityIsUsed -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testNgClasses.verifyForgotPasswordFunctonality@42a48628]" started-at="2024-05-10T23:35:32 IST" name="closeBrowser" finished-at="2024-05-10T23:35:32 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="takeScreenshotOfFailedTestCases(org.testng.ITestResult)[pri:0, instance:testNgClasses.verifyForgotPasswordFunctonality@42a48628]" started-at="2024-05-10T23:35:32 IST" name="takeScreenshotOfFailedTestCases" finished-at="2024-05-10T23:35:32 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyErrorMessageWhenForgotFunctionalityIsUsed status=SUCCESS method=verifyForgotPasswordFunctonality.verifyErrorMessageWhenForgotFunctionalityIsUsed()[pri:2, instance:testNgClasses.verifyForgotPasswordFunctonality@42a48628] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOfFailedTestCases -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testNgClasses.verifyForgotPasswordFunctonality@42a48628]" started-at="2024-05-10T23:35:55 IST" name="afterTest" finished-at="2024-05-10T23:35:56 IST" duration-ms="1493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testNgClasses.verifyForgotPasswordFunctonality -->
     </test> <!-- EdgeTest -->
   </suite> <!-- RegressionSuite -->
 </testng-results>

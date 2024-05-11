@@ -4,35 +4,33 @@
   <test thread-count="5" parallel="classes" name="ChromeTest(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot">
+      <class name="testNgClasses.VerifyThatUserIsAbleToLoginIntoFacebookAccount">
         <methods>
-          <include name="beforeTest"/>
-          <include name="beforeMehtod"/>
-          <include name="test2"/>
-          <include name="closeBrowser"/>
-          <include name="afterMehtod"/>
-          <include name="afterClass"/>
-          <include name="test1"/>
           <include name="beforeClass"/>
+          <include name="closeBrowser"/>
+          <include name="beforeMehtod"/>
+          <include name="facebookLogin"/>
+          <include name="afterClass"/>
+          <include name="afterMehtod"/>
+          <include name="beforeTest"/>
         </methods>
-      </class> <!-- testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot -->
+      </class> <!-- testNgClasses.VerifyThatUserIsAbleToLoginIntoFacebookAccount -->
     </classes>
   </test> <!-- ChromeTest(failed) -->
   <test thread-count="5" parallel="classes" name="EdgeTest(failed)">
     <parameter name="browser" value="edge"/>
     <classes>
-      <class name="testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot">
+      <class name="testNgClasses.VerifyThatUserIsAbleToLoginIntoFacebookAccount">
         <methods>
-          <include name="beforeTest"/>
-          <include name="beforeMehtod"/>
-          <include name="test2"/>
-          <include name="closeBrowser"/>
-          <include name="afterMehtod"/>
-          <include name="afterClass"/>
-          <include name="test1"/>
           <include name="beforeClass"/>
+          <include name="closeBrowser"/>
+          <include name="beforeMehtod"/>
+          <include name="facebookLogin"/>
+          <include name="afterClass"/>
+          <include name="afterMehtod"/>
+          <include name="beforeTest"/>
         </methods>
-      </class> <!-- testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot -->
+      </class> <!-- testNgClasses.VerifyThatUserIsAbleToLoginIntoFacebookAccount -->
     </classes>
   </test> <!-- EdgeTest(failed) -->
 </suite> <!-- Failed suite [RegressionSuite] -->

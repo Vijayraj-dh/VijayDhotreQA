@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>ChromeTest</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/1</td>
+<td>Tests passed/Failed/Skipped:</td><td>4/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu May 09 15:31:24 IST 2024</td>
+<td>Started on:</td><td>Fri May 10 23:40:59 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>365 seconds (365211 ms)</td>
+<tr><td>Total time:</td><td>402 seconds (402387 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,14 +75,14 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot.afterMehtod()'><b>afterMehtod</b><br>Test class: testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot<br>Parameters: [TestResult name=test1 status=FAILURE method=VerifyAllElentsOnHomepageAreClickableOrNot.test1()[pri:0, instance:testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot@4f18837a] output={null}]</td>
+<td title='testNgClasses.VerifyThatUserIsAbleToLoginIntoFacebookAccount.afterMehtod()'><b>afterMehtod</b><br>Test class: testNgClasses.VerifyThatUserIsAbleToLoginIntoFacebookAccount<br>Parameters: [TestResult name=facebookLogin status=FAILURE method=VerifyThatUserIsAbleToLoginIntoFacebookAccount.facebookLogin()[pri:0, instance:testNgClasses.VerifyThatUserIsAbleToLoginIntoFacebookAccount@7ec7ffd3] output={null}]</td>
 <td><div><pre>org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
 Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2b6135f1da256242321f3986ae63e946, screenshot {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.155 (df4f029328b..., userDataDir: C:\Users\VIJAYD~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59791}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59791/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2b6135f1da256242321f3986ae63e946
+Command: [0cd9082d73efc1c22924a159654e308e, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.156, chrome: {chromedriverVersion: 124.0.6367.201 (46cf136d27d..., userDataDir: C:\Users\VIJAYD~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51374}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51374/devtoo..., se:cdpVersion: 124.0.6367.156, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0cd9082d73efc1c22924a159654e308e
 	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:396)
 	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
 	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
@@ -94,8 +94,8 @@ Session ID: 2b6135f1da256242321f3986ae63e946
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
 	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:321)
-	at util.Utility.takeScreenshotMethod(Utility.java:51)
-	at testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot.afterMehtod(VerifyAllElentsOnHomepageAreClickableOrNot.java:105)
+	at util.Utility.takeScreenshotMethod(Utility.java:54)
+	at testNgClasses.VerifyThatUserIsAbleToLoginIntoFacebookAccount.afterMehtod(VerifyThatUserIsAbleToLoginIntoFacebookAccount.java:98)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
@@ -104,14 +104,14 @@ Caused by: java.util.concurrent.TimeoutException
 	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
 	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:379)
 	... 30 more
-... Removed 15 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace518831024", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace518831024'><pre>org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+... Removed 15 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1204463261", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1204463261'><pre>org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
 Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2b6135f1da256242321f3986ae63e946, screenshot {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.155 (df4f029328b..., userDataDir: C:\Users\VIJAYD~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59791}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59791/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2b6135f1da256242321f3986ae63e946
+Command: [0cd9082d73efc1c22924a159654e308e, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.156, chrome: {chromedriverVersion: 124.0.6367.201 (46cf136d27d..., userDataDir: C:\Users\VIJAYD~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51374}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51374/devtoo..., se:cdpVersion: 124.0.6367.156, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0cd9082d73efc1c22924a159654e308e
 	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:396)
 	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
 	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
@@ -123,8 +123,8 @@ Session ID: 2b6135f1da256242321f3986ae63e946
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
 	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:321)
-	at util.Utility.takeScreenshotMethod(Utility.java:51)
-	at testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot.afterMehtod(VerifyAllElentsOnHomepageAreClickableOrNot.java:105)
+	at util.Utility.takeScreenshotMethod(Utility.java:54)
+	at testNgClasses.VerifyThatUserIsAbleToLoginIntoFacebookAccount.afterMehtod(VerifyThatUserIsAbleToLoginIntoFacebookAccount.java:98)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -150,7 +150,7 @@ Caused by: java.util.concurrent.TimeoutException
 	... 30 more
 </pre></div></td>
 <td>180</td>
-<td>testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot@4f18837a</td></tr>
+<td>testNgClasses.VerifyThatUserIsAbleToLoginIntoFacebookAccount@7ec7ffd3</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
@@ -160,25 +160,10 @@ Caused by: java.util.concurrent.TimeoutException
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot.closeBrowser()'><b>closeBrowser</b><br>Test class: testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot</td>
+<td title='testNgClasses.VerifyThatUserIsAbleToLoginIntoFacebookAccount.afterClass()'><b>afterClass</b><br>Test class: testNgClasses.VerifyThatUserIsAbleToLoginIntoFacebookAccount</td>
 <td></td>
-<td>-1715249249</td>
-<td>testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot@4f18837a</td></tr>
-<tr>
-<td title='testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot.beforeMehtod()'><b>beforeMehtod</b><br>Test class: testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot</td>
-<td></td>
-<td>-1715249249</td>
-<td>testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot@4f18837a</td></tr>
-<tr>
-<td title='testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot.afterClass()'><b>afterClass</b><br>Test class: testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot</td>
-<td></td>
-<td>-1715249249</td>
-<td>testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot@4f18837a</td></tr>
-<tr>
-<td title='testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot.afterMehtod()'><b>afterMehtod</b><br>Test class: testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot</td>
-<td></td>
-<td>-1715249249</td>
-<td>testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot@4f18837a</td></tr>
+<td>-1715365030</td>
+<td>testNgClasses.VerifyThatUserIsAbleToLoginIntoFacebookAccount@7ec7ffd3</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-failed'>
 <tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
@@ -188,14 +173,14 @@ Caused by: java.util.concurrent.TimeoutException
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot.test1()'><b>test1</b><br>Test class: testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot</td>
+<td title='testNgClasses.VerifyThatUserIsAbleToLoginIntoFacebookAccount.facebookLogin()'><b>facebookLogin</b><br>Test class: testNgClasses.VerifyThatUserIsAbleToLoginIntoFacebookAccount</td>
 <td><div><pre>org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
 Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2b6135f1da256242321f3986ae63e946, findElement {using=xpath, value=//span[text()=&apos;Friends&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.155 (df4f029328b..., userDataDir: C:\Users\VIJAYD~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59791}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59791/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2b6135f1da256242321f3986ae63e946
+Command: [0cd9082d73efc1c22924a159654e308e, findElement {value=//span[text()=&apos;Friends&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.156, chrome: {chromedriverVersion: 124.0.6367.201 (46cf136d27d..., userDataDir: C:\Users\VIJAYD~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51374}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51374/devtoo..., se:cdpVersion: 124.0.6367.156, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0cd9082d73efc1c22924a159654e308e
 	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:396)
 	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
 	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
@@ -212,7 +197,7 @@ Session ID: 2b6135f1da256242321f3986ae63e946
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
 	at pom.HomePage.clickonFriends(HomePage.java:163)
-	at testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot.test1(VerifyAllElentsOnHomepageAreClickableOrNot.java:84)
+	at testNgClasses.VerifyThatUserIsAbleToLoginIntoFacebookAccount.facebookLogin(VerifyThatUserIsAbleToLoginIntoFacebookAccount.java:85)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
@@ -221,14 +206,14 @@ Caused by: java.util.concurrent.TimeoutException
 	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
 	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:379)
 	... 29 more
-... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1632976566", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1632976566'><pre>org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1109685996", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1109685996'><pre>org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
 Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2b6135f1da256242321f3986ae63e946, findElement {using=xpath, value=//span[text()=&apos;Friends&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.155 (df4f029328b..., userDataDir: C:\Users\VIJAYD~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59791}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59791/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2b6135f1da256242321f3986ae63e946
+Command: [0cd9082d73efc1c22924a159654e308e, findElement {value=//span[text()=&apos;Friends&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.156, chrome: {chromedriverVersion: 124.0.6367.201 (46cf136d27d..., userDataDir: C:\Users\VIJAYD~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51374}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51374/devtoo..., se:cdpVersion: 124.0.6367.156, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0cd9082d73efc1c22924a159654e308e
 	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:396)
 	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
 	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
@@ -245,7 +230,7 @@ Session ID: 2b6135f1da256242321f3986ae63e946
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
 	at pom.HomePage.clickonFriends(HomePage.java:163)
-	at testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot.test1(VerifyAllElentsOnHomepageAreClickableOrNot.java:84)
+	at testNgClasses.VerifyThatUserIsAbleToLoginIntoFacebookAccount.facebookLogin(VerifyThatUserIsAbleToLoginIntoFacebookAccount.java:85)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -265,93 +250,36 @@ Caused by: java.util.concurrent.TimeoutException
 	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:379)
 	... 29 more
 </pre></div></td>
-<td>180</td>
-<td>testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot@4f18837a</td></tr>
+<td>183</td>
+<td>testNgClasses.VerifyThatUserIsAbleToLoginIntoFacebookAccount@7ec7ffd3</td></tr>
 </table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='testNgClasses.verifyForgotPasswordFunctonality.verifyErrorMessageWhenForgotFunctionalityIsUsed()'><b>verifyErrorMessageWhenForgotFunctionalityIsUsed</b><br>Test class: testNgClasses.verifyForgotPasswordFunctonality</td>
+<td></td>
+<td>1</td>
+<td>testNgClasses.verifyForgotPasswordFunctonality@4a94ee4</td></tr>
+<tr>
 <td title='testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot.test2()'><b>test2</b><br>Test class: testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot</td>
-<td><div><pre>org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
-Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2b6135f1da256242321f3986ae63e946, screenshot {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.155 (df4f029328b..., userDataDir: C:\Users\VIJAYD~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59791}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59791/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2b6135f1da256242321f3986ae63e946
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:396)
-	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:352)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
-	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:321)
-	at util.Utility.takeScreenshotMethod(Utility.java:51)
-	at testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot.afterMehtod(VerifyAllElentsOnHomepageAreClickableOrNot.java:105)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: java.util.concurrent.TimeoutException
-	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:379)
-	... 30 more
-... Removed 15 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1112203350", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1112203350'><pre>org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
-Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2b6135f1da256242321f3986ae63e946, screenshot {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.155 (df4f029328b..., userDataDir: C:\Users\VIJAYD~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59791}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59791/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2b6135f1da256242321f3986ae63e946
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:396)
-	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:352)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
-	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:321)
-	at util.Utility.takeScreenshotMethod(Utility.java:51)
-	at testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot.afterMehtod(VerifyAllElentsOnHomepageAreClickableOrNot.java:105)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-	at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: java.util.concurrent.TimeoutException
-	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:379)
-	... 30 more
-</pre></div></td>
+<td></td>
+<td>6</td>
+<td>testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot@5876a9af</td></tr>
+<tr>
+<td title='testNgClasses.verifyForgotPasswordFunctonality.verifyPasswordShouldBeChangedSucccessfully()'><b>verifyPasswordShouldBeChangedSucccessfully</b><br>Test class: testNgClasses.verifyForgotPasswordFunctonality</td>
+<td></td>
 <td>0</td>
-<td>testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot@4f18837a</td></tr>
+<td>testNgClasses.verifyForgotPasswordFunctonality@4a94ee4</td></tr>
+<tr>
+<td title='testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot.test1()'><b>test1</b><br>Test class: testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot</td>
+<td></td>
+<td>12</td>
+<td>testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot@5876a9af</td></tr>
 </table><p>
 </body>
 </html>

@@ -1,12 +1,15 @@
 package testNgClasses;
 
+import java.io.IOException;
 import java.time.Duration;
 
+import org.apache.poi.EncryptedDocumentException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
+import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
@@ -22,6 +25,7 @@ import pom.FriendsRequestPage;
 import pom.HomePage;
 import pom.LogInOrSignPage;
 import pom.MyProfilePage;
+import util.Utility;
 
 public class verifyForgotPasswordFunctonality extends Base {
 	
@@ -31,7 +35,7 @@ public class verifyForgotPasswordFunctonality extends Base {
 	private FriendsRequestPage friendRequestsPage;
 	private MyProfilePage myProfilePage;
 	private ForgotPasswordPage forgotPasswordPage;
-	
+	private String testId;
 	
 	@Parameters("browser")
 	@BeforeTest
@@ -64,18 +68,19 @@ public class verifyForgotPasswordFunctonality extends Base {
 
 	}
 	@BeforeMethod
-	public void launchForgotPasswordpage() {
+	public void launchForgotPasswordpage() throws EncryptedDocumentException, IOException {
 		System.out.println("beforeMethod");
         driver.get("https://www.facebook.com/login/");
       //  HomePage  homepage=new HomePage(driver);
        logInOrSignPage=new LogInOrSignPage(driver);
-       logInOrSignPage.sendUserName("9604419850");
-       logInOrSignPage.sendPassword("Vijay@0708");
+       logInOrSignPage.sendUserName(Utility.GetDataFromExcelSheet("Sheet1", 1, 0));
+       logInOrSignPage.sendPassword(Utility.GetDataFromExcelSheet("Sheet1", 1, 1));
        logInOrSignPage.clickOnForgetPasswordlink();
 
 	}
 	@Test(priority=1)
 	public void verifyPasswordShouldBeChangedSucccessfully() {
+		testId="1215";
    System.out.println("test1");
    forgotPasswordPage.sendDataToEmailOrMobNoField("vijaydhotre10@gmail.com");
    forgotPasswordPage.clickOnSearchButton();
@@ -84,16 +89,19 @@ public class verifyForgotPasswordFunctonality extends Base {
 	@Test(priority=2)
 	public void verifyErrorMessageWhenForgotFunctionalityIsUsed() {
 		System.out.println("test2");
+		testId="1216";
+
 		forgotPasswordPage=new ForgotPasswordPage(driver);
 		forgotPasswordPage.sendDataToEmailOrMobNoField("vij");
 		forgotPasswordPage.clickOnCancelButton();
 			}
 	
 	@AfterMethod
-        public void takeScreenshotOfFailedTestCases() {
+        public void takeScreenshotOfFailedTestCases(ITestResult result) throws IOException {
 		System.out.println("aftermethod");
-		System.out.println("take screenshot of failed testcases");
-	}
+		if(ITestResult.FAILURE==result.getStatus()) {
+			Utility.takeScreenshotMethod(driver, testId);
+		}	}
 	@AfterClass
     public void closeBrowser() {
 	System.out.println("afterClass");

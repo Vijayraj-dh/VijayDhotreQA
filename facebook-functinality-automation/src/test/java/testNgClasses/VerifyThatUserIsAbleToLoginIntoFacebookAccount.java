@@ -19,22 +19,24 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
-import base.Base;
 import pom.FriendsRequestPage;
 import pom.HomePage;
 import pom.LogInOrSignPage;
 import pom.MyProfilePage;
 import util.Utility;
 
-public class VerifyAllElentsOnHomepageAreClickableOrNot extends Base {
-
+public class VerifyThatUserIsAbleToLoginIntoFacebookAccount {
 	private	WebDriver driver;
 	private LogInOrSignPage logInOrSignPage;
 	private HomePage  homePage	;
 	private FriendsRequestPage friendRequestsPage;
 	private MyProfilePage myProfilePage;
+	private int rowNo=1;
 	private String testId;
+	private SoftAssert soft;
+	
 	@Parameters("browser")
 	@BeforeTest
 	public void beforeTest(String browserName) {
@@ -63,42 +65,33 @@ public class VerifyAllElentsOnHomepageAreClickableOrNot extends Base {
 		homePage=new HomePage(driver);
 		friendRequestsPage=new FriendsRequestPage(driver);
 		myProfilePage=new MyProfilePage(driver);
-
+            soft=new SoftAssert();
 
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5000));
 
 
 	}
 	@BeforeMethod 
-	public void beforeMehtod() throws EncryptedDocumentException, IOException {
+	public void beforeMehtod() {
 		driver.get("https://www.facebook.com/login/");
+	
+
+	}
+
+
+	@Test
+	public void facebookLogin() throws EncryptedDocumentException, IOException {
+		testId="1212";
 		logInOrSignPage.sendUserName(Utility.GetDataFromExcelSheet("Sheet1", 1, 0));
 		logInOrSignPage.sendPassword(Utility.GetDataFromExcelSheet("Sheet1", 1, 1));
 		logInOrSignPage.clickOnLoginButton();
-
-
-	}
-	@Test
-	public void test1() {
-		testId="1213";
-		System.out.println("test1");
 		homePage.clickonFriends();
-
-		friendRequestsPage.viewAllFriends();
-		homePage.clickOnHomeIcon();
-		homePage.openMessenger();
-		homePage.clickOnHomeIcon();
-		String Expected="https://www.facebook.com/";
+		
+		
+		
 		String actual=driver.getCurrentUrl();
-		Assert.assertEquals(actual, Expected);
-	}
-
-	@Test
-	public void test2() {
-		testId="1214";
-
-		System.out.println("test2");
-		homePage.openMessenger();
+		String expected="https://www.facebook.com/";
+		soft.assertNotEquals(actual, expected);		
 	}
 
 	@AfterMethod
@@ -129,7 +122,6 @@ public class VerifyAllElentsOnHomepageAreClickableOrNot extends Base {
 		System.gc();
 
 	}
-
 
 
 }

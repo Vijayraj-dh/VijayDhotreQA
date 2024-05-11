@@ -5,7 +5,9 @@
   <test  name="ChromeTest">
 	  <parameter name="browser" value="chrome"></parameter> 
     <classes>
-		    <class name="testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot"/>
+			    <class name="testNgClasses.verifyForgotPasswordFunctonality"/>
+			    <class name="testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot"/>
+		        <class name="testNgClasses.VerifyThatUserIsAbleToLoginIntoFacebookAccount"/>
     </classes>
 	  </test> <!-- Test -->
   
@@ -14,8 +16,9 @@
    <test  name="EdgeTest">
 	  <parameter name="browser" value="edge"></parameter> 
     <classes>
-		    <class name="testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot"/>
-    </classes>
+               <class name="testNgClasses.verifyForgotPasswordFunctonality"/> 
+			    <class name="testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot"/>
+		        <class name="testNgClasses.VerifyThatUserIsAbleToLoginIntoFacebookAccount"/>    </classes>
   </test> <!-- Test -->
   
   
