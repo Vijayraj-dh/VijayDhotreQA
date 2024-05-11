@@ -96,7 +96,9 @@ public class VerifyThatUserIsAbleToLoginIntoFacebookAccount {
 
 	@AfterMethod
 	public void afterMehtod(ITestResult result) throws IOException {
-		
+		int x=result.getStatus();
+		System.out.println(x);
+		System.out.println();
 		if(ITestResult.FAILURE==result.getStatus()) {
 			Utility.takeScreenshotMethod(driver, testId);
 		}
