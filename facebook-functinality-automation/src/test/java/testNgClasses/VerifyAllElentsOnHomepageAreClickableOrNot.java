@@ -104,7 +104,7 @@ public class VerifyAllElentsOnHomepageAreClickableOrNot extends Base {
 	@AfterMethod
 	public void afterMehtod(ITestResult result) throws IOException {
 		
-		if(ITestResult.FAILURE==result.getStatus()) {
+		if(ITestResult.SUCCESS==result.getStatus()) {
 			Utility.takeScreenshotMethod(driver, testId);
 		}
 		

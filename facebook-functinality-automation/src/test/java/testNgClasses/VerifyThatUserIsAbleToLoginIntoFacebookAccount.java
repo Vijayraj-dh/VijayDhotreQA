@@ -81,6 +81,7 @@ public class VerifyThatUserIsAbleToLoginIntoFacebookAccount {
 
 	@Test
 	public void facebookLogin() throws EncryptedDocumentException, IOException {
+		System.out.println("24444994494");
 		testId="1212";
 		logInOrSignPage.sendUserName(Utility.GetDataFromExcelSheet("Sheet1", 1, 0));
 		logInOrSignPage.sendPassword(Utility.GetDataFromExcelSheet("Sheet1", 1, 1));
@@ -96,7 +97,9 @@ public class VerifyThatUserIsAbleToLoginIntoFacebookAccount {
 
 	@AfterMethod
 	public void afterMehtod(ITestResult result) throws IOException {
-		
+		int x=result.getStatus();
+		System.out.println(x);
+		System.out.println();
 		if(ITestResult.FAILURE==result.getStatus()) {
 			Utility.takeScreenshotMethod(driver, testId);
 		}

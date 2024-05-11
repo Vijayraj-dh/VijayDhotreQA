@@ -3,18 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot">
+      <class name="testNgClasses.VerifyThatUserIsAbleToLoginIntoFacebookAccount">
         <methods>
-          <include name="beforeTest"/>
-          <include name="beforeMehtod"/>
-          <include name="test2"/>
-          <include name="closeBrowser"/>
-          <include name="afterMehtod"/>
-          <include name="afterClass"/>
-          <include name="test1"/>
           <include name="beforeClass"/>
+          <include name="closeBrowser"/>
+          <include name="beforeMehtod"/>
+          <include name="facebookLogin"/>
+          <include name="afterClass"/>
+          <include name="afterMehtod"/>
+          <include name="beforeTest"/>
         </methods>
-      </class> <!-- testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot -->
+      </class> <!-- testNgClasses.VerifyThatUserIsAbleToLoginIntoFacebookAccount -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

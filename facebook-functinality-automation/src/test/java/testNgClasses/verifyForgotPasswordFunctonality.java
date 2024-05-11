@@ -79,10 +79,10 @@ public class verifyForgotPasswordFunctonality extends Base {
 
 	}
 	@Test(priority=1)
-	public void verifyPasswordShouldBeChangedSucccessfully() {
+	public void verifyPasswordShouldBeChangedSucccessfully() throws EncryptedDocumentException, IOException {
 		testId="1215";
    System.out.println("test1");
-   forgotPasswordPage.sendDataToEmailOrMobNoField("vijaydhotre10@gmail.com");
+   forgotPasswordPage.sendDataToEmailOrMobNoField(Utility.GetDataFromExcelSheet("Sheet1", 1, 0));
    forgotPasswordPage.clickOnSearchButton();
    
 	}
@@ -99,7 +99,7 @@ public class verifyForgotPasswordFunctonality extends Base {
 	@AfterMethod
         public void takeScreenshotOfFailedTestCases(ITestResult result) throws IOException {
 		System.out.println("aftermethod");
-		if(ITestResult.FAILURE==result.getStatus()) {
+		if(ITestResult.SUCCESS==result.getStatus()) {
 			Utility.takeScreenshotMethod(driver, testId);
 		}	}
 	@AfterClass

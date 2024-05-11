@@ -9,6 +9,7 @@
 			    <class name="testNgClasses.VerifyAllElentsOnHomepageAreClickableOrNot"/>
 		        <class name="testNgClasses.VerifyThatUserIsAbleToLoginIntoFacebookAccount"/>
     </classes>
+    
 	  </test> <!-- Test -->
   
   
